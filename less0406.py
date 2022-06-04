@@ -5,5 +5,3 @@ for i in range(n):
     if num not in sp:
         sp.append(num)
 print(*sp, sep='***')
-
-a, b, c = 1, 2, 3
