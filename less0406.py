@@ -1,7 +1,7 @@
-n = int(input())
+n = input()
 sp = []
-for i in range(n):
+for i in range(len(n)):
     num = input()
-    if num not in sp:
-        sp.append(num)
+
 print(*sp, sep='***')
+
